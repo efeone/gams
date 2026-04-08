@@ -85,10 +85,15 @@ app_license = "mit"
 # before_install = "gams.install.before_install"
 # after_install = "gams.install.after_install"
 
+# Migration
+#------------
+
+after_migrate = "gams.setup.after_migrate"
+
 # Uninstallation
 # ------------
 
-# before_uninstall = "gams.uninstall.before_uninstall"
+before_uninstall = "gams.uninstall.before_uninstall"
 # after_uninstall = "gams.uninstall.after_uninstall"
 
 # Integration Setup
