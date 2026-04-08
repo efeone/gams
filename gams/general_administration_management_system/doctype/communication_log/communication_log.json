@@ -1,0 +1,121 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "CML-.YYYY.-.####",
+ "creation": "2026-04-08 13:44:29.225107",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "communication_type",
+  "subject",
+  "from_party",
+  "to_party",
+  "column_break_stha",
+  "communication_date",
+  "logged_by",
+  "reference_doctype",
+  "reference_name",
+  "attachments",
+  "section_break_sqts",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "communication_type",
+   "fieldtype": "Select",
+   "label": "Communication Type",
+   "options": "Letter\nNotice\nCircular\nEmail\nMemo"
+  },
+  {
+   "fieldname": "subject",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Subject",
+   "reqd": 1
+  },
+  {
+   "fieldname": "from_party",
+   "fieldtype": "Data",
+   "label": "From Party",
+   "reqd": 1
+  },
+  {
+   "fieldname": "to_party",
+   "fieldtype": "Data",
+   "label": "To Party",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_stha",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "communication_date",
+   "fieldtype": "Date",
+   "label": "Communication Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "logged_by",
+   "fieldtype": "Link",
+   "label": "Logged By",
+   "options": "Employee",
+   "read_only": 1
+  },
+  {
+   "fieldname": "reference_doctype",
+   "fieldtype": "Link",
+   "label": "Reference Doctype",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "reference_name",
+   "fieldtype": "Dynamic Link",
+   "label": "Reference Name",
+   "options": "reference_doctype"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments"
+  },
+  {
+   "fieldname": "section_break_sqts",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-04-08 13:44:29.225107",
+ "modified_by": "admin@example.com",
+ "module": "General Administration Management System",
+ "name": "Communication Log",
+ "naming_rule": "Expression",
+ "owner": "admin@example.com",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
