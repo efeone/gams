@@ -1,0 +1,91 @@
+{
+ "charts": [
+  {
+   "chart_name": "Total Travel Request",
+   "label": "Total Travel Request"
+  },
+  {
+   "chart_name": "Expense Claims",
+   "label": "Expense Claims"
+  },
+  {
+   "chart_name": "Incident Report",
+   "label": "Incident Report"
+  }
+ ],
+ "content": "[{\"id\":\"29GeciWhsX\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>Shortcuts</b></span>\",\"col\":12}},{\"id\":\"4egvRZuiax\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Document Movement Log\",\"col\":4}},{\"id\":\"Cnrf5YYmp3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Incident Report\",\"col\":3}},{\"id\":\"BPRP4WwJEJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Travel Request\",\"col\":3}},{\"id\":\"bA_MAlsApa\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Expense Claim\",\"col\":4}},{\"id\":\"cMK7My95IG\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee\",\"col\":3}},{\"id\":\"QRq1T6PaoA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Role\",\"col\":3}},{\"id\":\"3hioLgxU_t\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"2Y8tumOE4s\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"MfFjFONyZL\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"xuersn0PMw\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"jWPgjE15fr\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Expense Claims\",\"col\":6}},{\"id\":\"XhHPiyYgm9\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Total Travel Request\",\"col\":6}},{\"id\":\"q3VX9wMvCb\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"CFW8Y7GwkP\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Incident Report\",\"col\":12}}]",
+ "creation": "2026-04-08 16:48:16.501137",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "project",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "GAMS",
+ "links": [],
+ "modified": "2026-04-08 17:56:53.891011",
+ "modified_by": "Administrator",
+ "module": "General Administration Management System",
+ "name": "GAMS",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 39.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Document Movement Log",
+   "link_to": "Document Movement Log",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Incident Report",
+   "link_to": "Incident Report",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Travel Request",
+   "link_to": "Travel Request",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Expense Claim",
+   "link_to": "Expense Claim",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Employee",
+   "link_to": "Employee",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Role",
+   "link_to": "Role",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "GAMS"
+}
