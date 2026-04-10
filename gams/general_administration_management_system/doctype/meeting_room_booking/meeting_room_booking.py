@@ -3,7 +3,7 @@
 
 import frappe
 from frappe.model.document import Document
-from frappe.utils import getdate, nowdate, get_time
+from frappe.utils import getdate, nowdate, get_time, get_datetime
 
 class MeetingRoomBooking(Document):
 
@@ -84,3 +84,39 @@ class MeetingRoomBooking(Document):
 				f"Room already booked from {booking.from_time} to {booking.to_time} for this day"
 			)
 
+@frappe.whitelist()
+def get_meeting_room_events(start, end, filters=None):
+	"""
+	Calendar event generator for Meeting Room Booking
+	"""
+
+	filters = frappe.parse_json(filters) if filters else {}
+
+	bookings = frappe.get_all(
+		"Meeting Room Booking",
+		fields=[
+			"name",
+			"meeting_room",
+			"booking_date",
+			"from_time",
+			"to_time",
+			"status"
+		],
+		filters=filters
+	)
+
+	events = []
+
+	for b in bookings:
+		start_dt = get_datetime(f"{b.booking_date} {b.from_time}")
+		end_dt = get_datetime(f"{b.booking_date} {b.to_time}")
+
+		events.append({
+			"name": b.name,
+			"start": start_dt,
+			"end": end_dt,
+			"title": b.meeting_room,
+			"status": b.status
+		})
+
+	return events
