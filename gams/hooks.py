@@ -142,13 +142,12 @@ before_uninstall = "gams.uninstall.before_uninstall"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
+doc_events = {
+	"Travel Request": {
+		"before_save": "gams.general_administration_management_system.custom_scripts.travel_request.travel_request.before_save",
+		"on_update": "gams.general_administration_management_system.custom_scripts.travel_request.travel_request.on_update",
+	},
+}
 
 # Scheduled Tasks
 # ---------------
