@@ -1,6 +1,10 @@
 {
  "charts": [
   {
+   "chart_name": "Communication Status Summary",
+   "label": "Communication Status Summary"
+  },
+  {
    "chart_name": "Total Travel Request",
    "label": "Total Travel Request"
   },
@@ -13,7 +17,7 @@
    "label": "Incident Report"
   }
  ],
- "content": "[{\"id\":\"29GeciWhsX\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>Shortcuts</b></span>\",\"col\":12}},{\"id\":\"4egvRZuiax\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Document Movement Log\",\"col\":4}},{\"id\":\"Cnrf5YYmp3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Incident Report\",\"col\":3}},{\"id\":\"BPRP4WwJEJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Travel Request\",\"col\":3}},{\"id\":\"bA_MAlsApa\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Expense Claim\",\"col\":4}},{\"id\":\"cMK7My95IG\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee\",\"col\":3}},{\"id\":\"QRq1T6PaoA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Role\",\"col\":3}},{\"id\":\"3hioLgxU_t\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"2Y8tumOE4s\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"MfFjFONyZL\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"xuersn0PMw\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"jWPgjE15fr\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Expense Claims\",\"col\":6}},{\"id\":\"XhHPiyYgm9\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Total Travel Request\",\"col\":6}},{\"id\":\"q3VX9wMvCb\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"CFW8Y7GwkP\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Incident Report\",\"col\":12}}]",
+ "content": "[{\"id\":\"29GeciWhsX\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>Shortcuts</b></span>\",\"col\":12}},{\"id\":\"4egvRZuiax\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Document Movement Log\",\"col\":4}},{\"id\":\"Cnrf5YYmp3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Incident Report\",\"col\":3}},{\"id\":\"BPRP4WwJEJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Travel Request\",\"col\":3}},{\"id\":\"bA_MAlsApa\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Expense Claim\",\"col\":4}},{\"id\":\"cMK7My95IG\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee\",\"col\":3}},{\"id\":\"QRq1T6PaoA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Role\",\"col\":3}},{\"id\":\"HuTkApB1NP\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Communication Log\",\"col\":4}},{\"id\":\"gX-wAyAPAT\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Meeting Room Booking\",\"col\":3}},{\"id\":\"7jf4ojPW3f\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Room\",\"col\":3}},{\"id\":\"Wj3haoLbKy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Inward Register\",\"col\":4}},{\"id\":\"j185lT-2EK\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Outward Register\",\"col\":3}},{\"id\":\"3hioLgxU_t\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"2Y8tumOE4s\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"MfFjFONyZL\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"xuersn0PMw\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"jWPgjE15fr\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Expense Claims\",\"col\":6}},{\"id\":\"XhHPiyYgm9\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Total Travel Request\",\"col\":6}},{\"id\":\"q3VX9wMvCb\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"CFW8Y7GwkP\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Incident Report\",\"col\":12}},{\"id\":\"JRGYpRI-mc\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"joZe2glnIW\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Communication Status Summary\",\"col\":12}}]",
  "creation": "2026-04-08 16:48:16.501137",
  "custom_blocks": [],
  "docstatus": 0,
@@ -26,7 +30,7 @@
  "is_hidden": 0,
  "label": "GAMS",
  "links": [],
- "modified": "2026-04-08 17:56:53.891011",
+ "modified": "2026-04-13 09:40:29.143811",
  "modified_by": "Administrator",
  "module": "General Administration Management System",
  "name": "GAMS",
@@ -65,8 +69,32 @@
   {
    "color": "Grey",
    "doc_view": "List",
+   "label": "Communication Log",
+   "link_to": "Communication Log",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Room",
+   "link_to": "Room",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
    "label": "Expense Claim",
    "link_to": "Expense Claim",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Inward Register",
+   "link_to": "Inward Register",
    "stats_filter": "[]",
    "type": "DocType"
   },
@@ -83,6 +111,22 @@
    "doc_view": "List",
    "label": "Role",
    "link_to": "Role",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Meeting Room Booking",
+   "link_to": "Meeting Room Booking",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Outward Register",
+   "link_to": "Outward Register",
    "stats_filter": "[]",
    "type": "DocType"
   }
